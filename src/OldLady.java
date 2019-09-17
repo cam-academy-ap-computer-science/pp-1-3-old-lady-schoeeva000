@@ -7,25 +7,15 @@ public class OldLady {
 		thereWas();
 		System.out.println("spider,\nThat wriggled and iggled and jiggled inside her.");
 		spider();
-		idkWhy();
 		thereWas();
 		System.out.println("bird,\nHow absurd to swallow a bird.");
 		bird();
-		spider();
-		idkWhy();
 		thereWas();
 		System.out.println("cat,\nImagine that to swallow a cat.");
 		cat();
-		bird();
-		spider();
-		idkWhy();
 		thereWas();
 		System.out.println("dog,\nWhat a hog to swallow a dog.");
 		dog();
-		cat();
-		bird();
-		spider();
-		idkWhy();
 		thereWas();
 		System.out.println("horse,\nShe died of course.");
 		
@@ -47,20 +37,22 @@ public class OldLady {
 	
 	public static void spider() {
 		System.out.println("She swallowed the spider to catch the fly,");
+		idkWhy();
 	}
 	
 	public static void bird() {
 		System.out.println("She swallowed the bird to catch the spider,");
+		spider();
 	}
 
 	public static void cat() {
 		System.out.println("She swallowed the cat to catch the bird,");
+		bird();
 	}
 	
 	public static void dog() {
 		System.out.println("She swallowed the dog to catch the cat,");
+		cat();
 	}
-
-
 
 }
