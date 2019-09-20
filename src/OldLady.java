@@ -1,4 +1,16 @@
-
+/***
+ * Grading Comments:
+ *  Excellent work.  You clearly get the idea of how
+ *  to reduce code using methods, and how to reduce
+ *  duplication.  
+ *  Nearly perfect work.
+ *  Compiles/Works: 15/15
+ *  Desired output: 6/6
+ *  Consistency: 2/2
+ *  Efficiency: 2/2 - You could have included your thereWas()
+ *    method in the first 'fly();'
+ *  25/25
+ */
 public class OldLady {
 
 	public static void main(String[] args) {
